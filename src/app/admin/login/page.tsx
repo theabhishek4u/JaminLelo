@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { BRAND } from "@/lib/constants";
+import { WindArrowDown } from "lucide-react";
 
 export default function AdminLoginPage() {
   const [error, setError] = useState("");
@@ -12,8 +13,6 @@ export default function AdminLoginPage() {
     setLoading(true);
     setError("");
 
-
-    wniw
     
     // TODO: Integrate with Supabase Auth
     // For demo, just simulate a login
@@ -83,3 +82,4 @@ export default function AdminLoginPage() {
       </div>
     </div>
   );
+}
