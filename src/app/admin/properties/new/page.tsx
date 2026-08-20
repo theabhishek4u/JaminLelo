@@ -724,7 +724,7 @@ export default function AdminAddPropertyPage() {
                     <span className="text-sm font-black text-neutral-900">{conversions.sqft}</span>
                     <span className="text-[10px] text-neutral-400 block">sq. ft.</span>
                   </div>
-                  <div className="bg-white p-2.5 rounded-lg border border-emerald-200 shadow-2xs bg-emerald-50/40">
+                  <div className="p-2.5 rounded-lg border border-emerald-200 shadow-2xs bg-emerald-50/50">
                     <span className="text-[10.5px] text-emerald-800 font-bold block">Kathaa (कट्ठा)</span>
                     <span className="text-sm font-black text-[#0c3924]">{conversions.kathaa}</span>
                     <span className="text-[10px] text-emerald-600 block">Kathaa</span>
@@ -768,7 +768,7 @@ export default function AdminAddPropertyPage() {
                     </span>
                     <span className="text-[10px] text-neutral-400 block">/ sq ft</span>
                   </div>
-                  <div className="bg-white p-2.5 rounded-lg border border-amber-200 shadow-2xs bg-amber-50/30">
+                  <div className="p-2.5 rounded-lg border border-amber-200 shadow-2xs bg-amber-50/50">
                     <span className="text-[11px] text-amber-900 font-bold block">
                       Rate per Kathaa (दर प्रति कट्ठा)
                     </span>
@@ -924,7 +924,7 @@ export default function AdminAddPropertyPage() {
                     )}
 
                     <div className="p-2 bg-white flex items-center justify-between text-xs">
-                      <span className="text-[11px] text-neutral-600 truncate max-w-[100px]">
+                      <span className="text-[11px] text-neutral-600 truncate max-w-25">
                         {img.name}
                       </span>
                       <div className="flex items-center gap-1">
@@ -987,7 +987,7 @@ export default function AdminAddPropertyPage() {
                     <span className="text-base">{badge.icon}</span>
                     <span className="text-xs leading-snug flex-1">{badge.label}</span>
                     {isSelected && (
-                      <Check className="w-3.5 h-3.5 text-[#0c3924] stroke-[3] shrink-0" />
+                      <Check className="w-3.5 h-3.5 text-[#0c3924] stroke-3 shrink-0" />
                     )}
                   </button>
                 );
