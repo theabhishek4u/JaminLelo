@@ -31,7 +31,7 @@ export default function AdminLocationsPage() {
                 </td>
                 <td className="px-5 py-4 font-mono text-xs text-primary-600">{loc.code}</td>
                 <td className="px-5 py-4 text-neutral-500">/locations/{loc.slug}</td>
-                <td className="px-5 py-4 text-neutral-500 text-xs max-w-[200px] truncate">{loc.seoTitle}</td>
+                <td className="px-5 py-4 text-neutral-500 text-xs max-w-50 truncate">{loc.seoTitle}</td>
                 <td className="px-5 py-4 text-center text-neutral-600">—</td>
                 <td className="px-5 py-4 text-right">
                   <button className="p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-400 hover:text-neutral-700 transition-colors">
